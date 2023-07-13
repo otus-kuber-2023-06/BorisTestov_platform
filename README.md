@@ -34,3 +34,17 @@ Online Course by Otus @ June 2023
 - Run `kubectl apply -f kubernetes-intro/frontend-pod-healthy.yaml`
 - Run `kubectl get po frontend`
 - You should see status `Running`
+
+## Task 2
+
+### Base
+
+- Added `ReplicaSet` to `frontend` pod
+- Created and pulled `paymentservice` image
+- For `paymentservice`, added both `ReplicaSet` and `Deployment`
+- Added `Probes` to `frontend-deployment`
+
+### Advanced
+
+- Created manifest for blue-green like scenario and reverse rolling update
+- Created manifest for node-exporter
