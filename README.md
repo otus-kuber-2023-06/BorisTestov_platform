@@ -48,4 +48,3 @@ Online Course by Otus @ June 2023
 
 - Created manifest for blue-green like scenario and reverse rolling update
 - Created manifest for node-exporter
-
